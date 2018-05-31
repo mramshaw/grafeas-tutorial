@@ -70,7 +70,7 @@ Once gpg has been installed generate a signing key:
 gpg --quick-generate-key --yes image.signer@example.com 
 ```
 
-Retrive the ID of the signing key:
+Retrieve the ID of the signing key:
 
 ```
 gpg --list-keys --keyid-format short
